@@ -71,7 +71,7 @@
     (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x013fc_ffffffff)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -88,11 +88,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory release-v1/gerber/))
+      (outputdirectory release-v1/))
   )
 
   (net 0 "")
