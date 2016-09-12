@@ -1,0 +1,628 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:cartboard
+LIBS:cartboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 800  1200 600  750 
+U 56119D31
+F0 "protectedio" 60
+F1 "protected_io.sch" 60
+F2 "GND" U R 1400 1800 60 
+F3 "VCC" U R 1400 1300 60 
+F4 "IO[1..16]" B R 1400 1550 60 
+$EndSheet
+Text Label 1700 1300 2    60   ~ 0
+VCC
+Text Label 1600 1550 0    60   ~ 0
+IO[1..16]
+Wire Bus Line
+	1400 1550 3900 1550
+Wire Wire Line
+	1400 1300 1700 1300
+Wire Wire Line
+	1400 1800 1700 1800
+Wire Wire Line
+	1700 1800 1700 1900
+$Comp
+L GND #PWR01
+U 1 1 56154174
+P 1700 1900
+F 0 "#PWR01" H 1700 1650 50  0001 C CNN
+F 1 "GND" H 1700 1750 50  0000 C CNN
+F 2 "" H 1700 1900 60  0000 C CNN
+F 3 "" H 1700 1900 60  0000 C CNN
+	1    1700 1900
+	1    0    0    -1  
+$EndComp
+Text Label 1550 1800 0    60   ~ 0
+GND
+Text Label 1650 3450 2    60   ~ 0
+VCC
+Text Label 1650 3850 2    60   ~ 0
+GND
+Text Label 1650 3700 2    60   ~ 0
+SRX
+Text Label 1650 3600 2    60   ~ 0
+STX
+$Sheet
+S 800  2300 600  650 
+U 561555A2
+F0 "Power" 60
+F1 "power.sch" 60
+F2 "VCC" O R 1400 2400 60 
+F3 "VIN_UF" O R 1400 2600 60 
+F4 "GND" O R 1400 2800 60 
+$EndSheet
+Wire Wire Line
+	1400 2400 1750 2400
+Text Label 1750 2400 2    60   ~ 0
+VCC
+Text Label 1750 2600 2    60   ~ 0
+VIN
+Text Label 1750 2800 2    60   ~ 0
+GND
+$Comp
+L GND #PWR02
+U 1 1 5615A2BF
+P 1800 2950
+F 0 "#PWR02" H 1800 2700 50  0001 C CNN
+F 1 "GND" H 1800 2800 50  0000 C CNN
+F 2 "" H 1800 2950 60  0000 C CNN
+F 3 "" H 1800 2950 60  0000 C CNN
+	1    1800 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2950 1800 2800
+Wire Wire Line
+	1800 2800 1400 2800
+Wire Wire Line
+	1400 2600 1750 2600
+$Comp
+L CY8C29466 U101
+U 1 1 5617CCFA
+P 5650 3850
+F 0 "U101" H 6650 6500 60  0000 C CNN
+F 1 "CY8C29466" H 6100 6500 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 5650 3850 60  0001 C CNN
+F 3 "" H 5650 3850 60  0000 C CNN
+	1    5650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1350 7350 1350
+Text Label 7350 1350 2    60   ~ 0
+VCC
+Wire Wire Line
+	6950 3850 7400 3850
+Text Label 7400 3850 2    60   ~ 0
+GND
+Wire Wire Line
+	7400 3850 7400 3950
+$Comp
+L GND #PWR03
+U 1 1 5617D2E6
+P 7400 3950
+F 0 "#PWR03" H 7400 3700 50  0001 C CNN
+F 1 "GND" H 7400 3800 50  0000 C CNN
+F 2 "" H 7400 3950 60  0000 C CNN
+F 3 "" H 7400 3950 60  0000 C CNN
+	1    7400 3950
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	3900 1550 3900 950 
+Wire Bus Line
+	3900 950  4800 950 
+Wire Bus Line
+	4800 950  4800 3900
+Text Label 5200 1350 0    60   ~ 0
+IO1
+Text Label 5200 1450 0    60   ~ 0
+IO2
+Text Label 5200 1550 0    60   ~ 0
+IO3
+Text Label 5200 1650 0    60   ~ 0
+IO4
+Text Label 5200 1750 0    60   ~ 0
+IO5
+Text Label 5200 1850 0    60   ~ 0
+IO6
+Text Label 5200 1950 0    60   ~ 0
+IO7
+Text Label 5200 2050 0    60   ~ 0
+IO8
+Wire Wire Line
+	4900 2050 5650 2050
+Wire Wire Line
+	4900 1950 5650 1950
+Wire Wire Line
+	5650 1850 4900 1850
+Wire Wire Line
+	4900 1750 5650 1750
+Wire Wire Line
+	5650 1650 4900 1650
+Wire Wire Line
+	4900 1550 5650 1550
+Wire Wire Line
+	5650 1450 4900 1450
+Wire Wire Line
+	4900 1350 5650 1350
+Entry Bus Bus
+	4800 1950 4900 2050
+Entry Bus Bus
+	4800 1850 4900 1950
+Entry Bus Bus
+	4800 1750 4900 1850
+Entry Bus Bus
+	4800 1650 4900 1750
+Entry Bus Bus
+	4800 1550 4900 1650
+Entry Bus Bus
+	4800 1450 4900 1550
+Entry Bus Bus
+	4800 1350 4900 1450
+Entry Bus Bus
+	4800 1250 4900 1350
+Wire Wire Line
+	4900 3550 5650 3550
+Wire Wire Line
+	4900 3450 5650 3450
+Wire Wire Line
+	5650 3350 4900 3350
+Wire Wire Line
+	4900 3250 5650 3250
+Wire Wire Line
+	5650 3150 4900 3150
+Wire Wire Line
+	4900 2950 5650 2950
+Wire Wire Line
+	5650 2750 4900 2750
+Wire Wire Line
+	4900 2650 5650 2650
+Entry Bus Bus
+	4800 3450 4900 3550
+Entry Bus Bus
+	4800 3350 4900 3450
+Entry Bus Bus
+	4800 3250 4900 3350
+Entry Bus Bus
+	4800 3150 4900 3250
+Entry Bus Bus
+	4800 3050 4900 3150
+Entry Bus Bus
+	4800 2850 4900 2950
+Entry Bus Bus
+	4800 2650 4900 2750
+Entry Bus Bus
+	4800 2550 4900 2650
+Text Label 5200 2650 0    60   ~ 0
+IO9
+Text Label 5200 2750 0    60   ~ 0
+IO10
+Text Label 5200 2950 0    60   ~ 0
+IO11
+Text Label 5200 3150 0    60   ~ 0
+IO12
+Text Label 5200 3250 0    60   ~ 0
+IO13
+Text Label 5200 3350 0    60   ~ 0
+IO14
+Text Label 5200 3450 0    60   ~ 0
+IO15
+Text Label 5200 3550 0    60   ~ 0
+IO16
+$Sheet
+S 800  3350 600  600 
+U 5614830B
+F0 "Isolated Serial" 60
+F1 "serial.sch" 60
+F2 "VCCISO" I R 1400 3450 60 
+F3 "RXISO" I R 1400 3600 60 
+F4 "TXISO" O R 1400 3700 60 
+F5 "GNDISO" I R 1400 3850 60 
+$EndSheet
+Text Label 5200 2850 0    60   ~ 0
+STX
+Wire Wire Line
+	5200 2850 5650 2850
+Text Label 5200 3850 0    60   ~ 0
+SRX
+Wire Wire Line
+	5200 3850 5650 3850
+Text Label 5200 2250 0    60   ~ 0
+PSDA
+Text Label 5200 2350 0    60   ~ 0
+PSCL
+Text Label 7350 1550 2    60   ~ 0
+XRES
+Wire Wire Line
+	7350 1550 6950 1550
+Wire Wire Line
+	5200 2250 5650 2250
+Wire Wire Line
+	5200 2350 5650 2350
+Wire Wire Line
+	1400 3850 1750 3850
+Wire Wire Line
+	1400 3700 1650 3700
+Wire Wire Line
+	1650 3600 1400 3600
+Wire Wire Line
+	1650 3450 1400 3450
+$Comp
+L GND #PWR04
+U 1 1 561AE1E4
+P 1750 3900
+F 0 "#PWR04" H 1750 3650 50  0001 C CNN
+F 1 "GND" H 1750 3750 50  0000 C CNN
+F 2 "" H 1750 3900 60  0000 C CNN
+F 3 "" H 1750 3900 60  0000 C CNN
+	1    1750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3850 1750 3900
+$Comp
+L CONN_01X05 P101
+U 1 1 561AE6AF
+P 8500 1550
+F 0 "P101" H 8500 1850 50  0000 C CNN
+F 1 "CONN_01X05" V 8600 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x05" H 8500 1550 60  0001 C CNN
+F 3 "" H 8500 1550 60  0000 C CNN
+F 4 "WM4203-ND" H 8500 1550 60  0001 C CNN "Part"
+	1    8500 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 1150 0    60   ~ 0
+PSOC 1 Programming Header
+Text Label 8000 1350 0    60   ~ 0
+VCC
+Text Label 8000 1450 0    60   ~ 0
+GND
+Text Label 8000 1550 0    60   ~ 0
+XRES
+Text Label 8000 1650 0    60   ~ 0
+PSCL
+Text Label 8000 1750 0    60   ~ 0
+PSDA
+Wire Wire Line
+	8000 1350 8300 1350
+Wire Wire Line
+	8000 1450 8300 1450
+Wire Wire Line
+	8000 1550 8300 1550
+Wire Wire Line
+	8000 1650 8300 1650
+Wire Wire Line
+	8000 1750 8300 1750
+$Sheet
+S 800  4250 600  650 
+U 561AF28C
+F0 "Low side drivers" 60
+F1 "lowdriver.sch" 60
+F2 "C0" I R 1400 4450 60 
+F3 "C1" I R 1400 4550 60 
+F4 "VIN" I R 1400 4350 60 
+F5 "GND" I R 1400 4800 60 
+F6 "C2" I R 1400 4650 60 
+$EndSheet
+Wire Wire Line
+	1400 4350 1750 4350
+Text Label 1750 4350 2    60   ~ 0
+VIN
+Text Label 1750 4450 2    60   ~ 0
+DRV_0
+Text Label 1750 4550 2    60   ~ 0
+DRV_1
+Text Label 1750 4800 2    60   ~ 0
+GND
+Wire Wire Line
+	1750 4450 1400 4450
+Wire Wire Line
+	1400 4550 1750 4550
+$Comp
+L GND #PWR05
+U 1 1 561B14B9
+P 1750 4900
+F 0 "#PWR05" H 1750 4650 50  0001 C CNN
+F 1 "GND" H 1750 4750 50  0000 C CNN
+F 2 "" H 1750 4900 60  0000 C CNN
+F 3 "" H 1750 4900 60  0000 C CNN
+	1    1750 4900
+	1    0    0    -1  
+$EndComp
+Text Label 5200 2450 0    60   ~ 0
+DRV_0
+Text Label 5200 2550 0    60   ~ 0
+DRV_1
+Wire Wire Line
+	5200 2550 5650 2550
+Wire Wire Line
+	5650 2450 5200 2450
+Text Label 5200 3650 0    60   ~ 0
+DRV_2
+Wire Wire Line
+	5200 3650 5650 3650
+Wire Wire Line
+	1750 4900 1750 4800
+Wire Wire Line
+	1750 4800 1400 4800
+Wire Wire Line
+	1400 4650 1750 4650
+Text Label 1750 4650 2    60   ~ 0
+DRV_2
+$Comp
+L C C101
+U 1 1 561BCB13
+P 7600 2650
+F 0 "C101" H 7625 2750 50  0000 L CNN
+F 1 ".1u" H 7625 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7638 2500 30  0001 C CNN
+F 3 "" H 7600 2650 60  0000 C CNN
+	1    7600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C102
+U 1 1 561BCBD3
+P 7850 2650
+F 0 "C102" H 7875 2750 50  0000 L CNN
+F 1 ".1u" H 7875 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7888 2500 30  0001 C CNN
+F 3 "" H 7850 2650 60  0000 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2500 7600 2300
+Wire Wire Line
+	7600 2300 7850 2300
+Wire Wire Line
+	7850 2300 7850 2500
+Wire Wire Line
+	7600 2800 7600 3000
+Wire Wire Line
+	7600 3000 7850 3000
+Wire Wire Line
+	7850 3000 7850 2800
+Text Label 7600 2300 0    60   ~ 0
+VCC
+Text Label 7600 3000 0    60   ~ 0
+GND
+$Comp
+L LED D1
+U 1 1 57D5F723
+P 3150 3500
+F 0 "D1" H 3150 3600 50  0000 C CNN
+F 1 "LED" H 3150 3400 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 3150 3500 50  0001 C CNN
+F 3 "" H 3150 3500 50  0000 C CNN
+F 4 "APT2012SGC" H 3150 3500 60  0001 C CNN "Part"
+	1    3150 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 57D5FE3E
+P 2650 3500
+F 0 "R1" V 2730 3500 50  0000 C CNN
+F 1 "180R" V 2650 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 3500 50  0001 C CNN
+F 3 "" H 2650 3500 50  0000 C CNN
+	1    2650 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 3500 2950 3500
+Wire Wire Line
+	2500 3500 2200 3500
+Wire Wire Line
+	3350 3500 3850 3500
+Wire Wire Line
+	3850 3500 3850 3700
+$Comp
+L GND #PWR06
+U 1 1 57D600FB
+P 3850 3700
+F 0 "#PWR06" H 3850 3450 50  0001 C CNN
+F 1 "GND" H 3850 3550 50  0000 C CNN
+F 2 "" H 3850 3700 60  0000 C CNN
+F 3 "" H 3850 3700 60  0000 C CNN
+	1    3850 3700
+	1    0    0    -1  
+$EndComp
+Text Label 2200 3500 0    60   ~ 0
+VCC
+Text Label 3650 3500 0    60   ~ 0
+GND
+Text Notes 2750 3300 0    60   ~ 0
+Power LED
+$Comp
+L LED D101
+U 1 1 57D60A49
+P 3150 4000
+F 0 "D101" H 3150 4100 50  0000 C CNN
+F 1 "LED" H 3150 3900 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0000 C CNN
+F 4 "APT2012SGC" H 3150 4000 60  0001 C CNN "Part"
+	1    3150 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R101
+U 1 1 57D60A4F
+P 2650 4000
+F 0 "R101" V 2730 4000 50  0000 C CNN
+F 1 "1K" V 2650 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 4000 50  0001 C CNN
+F 3 "" H 2650 4000 50  0000 C CNN
+	1    2650 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 4000 2950 4000
+Wire Wire Line
+	2500 4000 2200 4000
+Wire Wire Line
+	3350 4000 3850 4000
+Wire Wire Line
+	3850 4000 3850 4200
+$Comp
+L GND #PWR07
+U 1 1 57D60A59
+P 3850 4200
+F 0 "#PWR07" H 3850 3950 50  0001 C CNN
+F 1 "GND" H 3850 4050 50  0000 C CNN
+F 2 "" H 3850 4200 60  0000 C CNN
+F 3 "" H 3850 4200 60  0000 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+Text Label 3650 4000 0    60   ~ 0
+GND
+Text Notes 2750 3800 0    60   ~ 0
+Low Side Drive 0
+Text Label 2200 4000 0    60   ~ 0
+DRV_0
+$Comp
+L LED D102
+U 1 1 57D60D73
+P 3150 4500
+F 0 "D102" H 3150 4600 50  0000 C CNN
+F 1 "LED" H 3150 4400 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 3150 4500 50  0001 C CNN
+F 3 "" H 3150 4500 50  0000 C CNN
+F 4 "APT2012SGC" H 3150 4500 60  0001 C CNN "Part"
+	1    3150 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R102
+U 1 1 57D60D79
+P 2650 4500
+F 0 "R102" V 2730 4500 50  0000 C CNN
+F 1 "1K" V 2650 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 4500 50  0001 C CNN
+F 3 "" H 2650 4500 50  0000 C CNN
+	1    2650 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 4500 2950 4500
+Wire Wire Line
+	2500 4500 2200 4500
+Wire Wire Line
+	3350 4500 3850 4500
+Wire Wire Line
+	3850 4500 3850 4700
+$Comp
+L GND #PWR08
+U 1 1 57D60D83
+P 3850 4700
+F 0 "#PWR08" H 3850 4450 50  0001 C CNN
+F 1 "GND" H 3850 4550 50  0000 C CNN
+F 2 "" H 3850 4700 60  0000 C CNN
+F 3 "" H 3850 4700 60  0000 C CNN
+	1    3850 4700
+	1    0    0    -1  
+$EndComp
+Text Label 3650 4500 0    60   ~ 0
+GND
+Text Label 2200 4500 0    60   ~ 0
+DRV_1
+$Comp
+L LED D103
+U 1 1 57D60ED3
+P 3150 5000
+F 0 "D103" H 3150 5100 50  0000 C CNN
+F 1 "LED" H 3150 4900 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 3150 5000 50  0001 C CNN
+F 3 "" H 3150 5000 50  0000 C CNN
+F 4 "APT2012SGC" H 3150 5000 60  0001 C CNN "Part"
+	1    3150 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R103
+U 1 1 57D60ED9
+P 2650 5000
+F 0 "R103" V 2730 5000 50  0000 C CNN
+F 1 "1K" V 2650 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 5000 50  0001 C CNN
+F 3 "" H 2650 5000 50  0000 C CNN
+	1    2650 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5000 2950 5000
+Wire Wire Line
+	2500 5000 2200 5000
+Wire Wire Line
+	3350 5000 3850 5000
+Wire Wire Line
+	3850 5000 3850 5200
+$Comp
+L GND #PWR09
+U 1 1 57D60EE3
+P 3850 5200
+F 0 "#PWR09" H 3850 4950 50  0001 C CNN
+F 1 "GND" H 3850 5050 50  0000 C CNN
+F 2 "" H 3850 5200 60  0000 C CNN
+F 3 "" H 3850 5200 60  0000 C CNN
+	1    3850 5200
+	1    0    0    -1  
+$EndComp
+Text Label 3650 5000 0    60   ~ 0
+GND
+Text Label 2200 5000 0    60   ~ 0
+DRV_2
+Text Notes 2750 4300 0    60   ~ 0
+Low Side Drive 1
+Text Notes 2750 4800 0    60   ~ 0
+Low Side Drive 2
+$EndSCHEMATC

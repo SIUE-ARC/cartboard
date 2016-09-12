@@ -1,0 +1,267 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:cartboard
+LIBS:cartboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P401
+U 1 1 561556C2
+P 3350 2600
+F 0 "P401" H 3350 2750 50  0000 C CNN
+F 1 "CONN_01X02" V 3450 2600 50  0000 C CNN
+F 2 "cartboard:TE_TERMBLOCK_5mmx2_282836-2" H 3350 2600 60  0001 C CNN
+F 3 "" H 3350 2600 60  0000 C CNN
+F 4 "ED2609-ND" H 3350 2600 60  0001 C CNN "Part"
+	1    3350 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 C401
+U 1 1 56155710
+P 4400 2700
+F 0 "C401" H 4425 2800 50  0000 L CNN
+F 1 "47u" H 4425 2600 50  0000 L CNN
+F 2 "cartboard:CAP_UCD1H470MCL6GS" H 4400 2700 60  0001 C CNN
+F 3 "" H 4400 2700 60  0000 C CNN
+F 4 "UCD1H470MCL6GS" H 4400 2700 60  0001 C CNN "part"
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C402
+U 1 1 56155761
+P 5050 2700
+F 0 "C402" H 5075 2800 50  0000 L CNN
+F 1 "47u" H 5075 2600 50  0000 L CNN
+F 2 "cartboard:CAP_UCD1H470MCL6GS" H 5050 2700 60  0001 C CNN
+F 3 "" H 5050 2700 60  0000 C CNN
+F 4 "UCD1H470MCL6GS" H 5050 2700 60  0001 C CNN "part"
+	1    5050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C405
+U 1 1 56155796
+P 6550 2700
+F 0 "C405" H 6575 2800 50  0000 L CNN
+F 1 "47u" H 6575 2600 50  0000 L CNN
+F 2 "cartboard:CAP_UCD1H470MCL6GS" H 6550 2700 60  0001 C CNN
+F 3 "" H 6550 2700 60  0000 C CNN
+F 4 "UCD1H470MCL6GS" H 6550 2700 60  0001 C CNN "part"
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR_SMALL L401
+U 1 1 561557D6
+P 4750 2400
+F 0 "L401" H 4750 2500 50  0000 C CNN
+F 1 ".9u" H 4750 2350 50  0000 C CNN
+F 2 "cartboard:L_NRS" H 4750 2400 60  0001 C CNN
+F 3 "" H 4750 2400 60  0000 C CNN
+F 4 "NRS6028T0R9NMGJV" H 4750 2400 60  0001 C CNN "Part"
+	1    4750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C403
+U 1 1 561558A0
+P 5300 2700
+F 0 "C403" H 5325 2800 50  0000 L CNN
+F 1 ".1u" H 5325 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5338 2550 30  0001 C CNN
+F 3 "" H 5300 2700 60  0000 C CNN
+	1    5300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C404
+U 1 1 561558CF
+P 6350 2700
+F 0 "C404" H 6375 2800 50  0000 L CNN
+F 1 ".1u" H 6375 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6388 2550 30  0001 C CNN
+F 3 "" H 6350 2700 60  0000 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805CDT U401
+U 1 1 56155B5E
+P 5800 2450
+F 0 "U401" H 5950 2254 60  0000 C CNN
+F 1 "MC7805CDTRKG" H 5800 2650 60  0000 C CNN
+F 2 "cartboard:D-PAK3" H 5800 2450 60  0001 C CNN
+F 3 "" H 5800 2450 60  0000 C CNN
+	1    5800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D401
+U 1 1 56155C0F
+P 4050 2400
+F 0 "D401" H 4050 2500 50  0000 C CNN
+F 1 "MBRS340T3G" H 4050 2300 50  0000 C CNN
+F 2 "Diodes_SMD:SMC_Standard" H 4050 2400 60  0001 C CNN
+F 3 "" H 4050 2400 60  0000 C CNN
+F 4 "MBRS340T3G" H 4050 2400 60  0001 C CNN "Part"
+	1    4050 2400
+	-1   0    0    1   
+$EndComp
+Text Label 5100 2400 0    60   ~ 0
+VIN
+Text Label 4200 2400 0    60   ~ 0
+VIN_UF
+Text Label 4550 3000 0    60   ~ 0
+GND
+$Comp
+L GND #PWR302
+U 1 1 56155DC1
+P 5050 3100
+F 0 "#PWR302" H 5050 2850 50  0001 C CNN
+F 1 "GND" H 5050 2950 50  0000 C CNN
+F 2 "" H 5050 3100 60  0000 C CNN
+F 3 "" H 5050 3100 60  0000 C CNN
+	1    5050 3100
+	1    0    0    -1  
+$EndComp
+Text Label 6400 2400 0    60   ~ 0
+VCC
+Text HLabel 7150 2400 2    60   Output ~ 0
+VCC
+Text HLabel 7150 2050 2    60   Output ~ 0
+VIN_UF
+Text HLabel 7150 3000 2    60   Output ~ 0
+GND
+$Comp
+L CONN_01X02 P302
+U 1 1 561ACF5A
+P 3350 3650
+F 0 "P302" H 3350 3800 50  0000 C CNN
+F 1 "CONN_01X02" V 3450 3650 50  0000 C CNN
+F 2 "cartboard:TE_TERMBLOCK_5mmx2_282836-2" H 3350 3650 60  0001 C CNN
+F 3 "" H 3350 3650 60  0000 C CNN
+F 4 "ED2609-ND" H 3350 3650 60  0001 C CNN "Part"
+	1    3350 3650
+	-1   0    0    1   
+$EndComp
+Text Label 3800 3600 2    60   ~ 0
+VCC
+Text Label 3800 3700 2    60   ~ 0
+GND
+$Comp
+L GND #PWR301
+U 1 1 561AD28B
+P 3800 3800
+F 0 "#PWR301" H 3800 3550 50  0001 C CNN
+F 1 "GND" H 3800 3650 50  0000 C CNN
+F 2 "" H 3800 3800 60  0000 C CNN
+F 3 "" H 3800 3800 60  0000 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3700 3800 3800
+Wire Wire Line
+	3550 3600 3800 3600
+Wire Wire Line
+	3550 3700 3800 3700
+Connection ~ 6550 3000
+Connection ~ 6550 2400
+Wire Wire Line
+	7150 2050 4400 2050
+Connection ~ 5800 3000
+Wire Wire Line
+	5800 3000 5800 2700
+Connection ~ 4400 3000
+Wire Wire Line
+	4400 2850 4400 3000
+Connection ~ 5050 3000
+Wire Wire Line
+	5050 2850 5050 3100
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 5300 2850
+Connection ~ 6350 3000
+Wire Wire Line
+	6350 3000 6350 2850
+Wire Wire Line
+	6550 3000 6550 2850
+Wire Wire Line
+	3650 3000 7150 3000
+Wire Wire Line
+	3650 2650 3650 3000
+Wire Wire Line
+	3550 2650 3650 2650
+Wire Wire Line
+	3650 2550 3550 2550
+Wire Wire Line
+	3650 2400 3650 2550
+Wire Wire Line
+	3900 2400 3650 2400
+Connection ~ 6350 2400
+Wire Wire Line
+	6350 2550 6350 2400
+Wire Wire Line
+	6550 2400 6550 2550
+Wire Wire Line
+	6200 2400 7150 2400
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 2400 5300 2550
+Connection ~ 5050 2400
+Wire Wire Line
+	4200 2400 4500 2400
+Wire Wire Line
+	5050 2400 5050 2550
+Wire Wire Line
+	5000 2400 5400 2400
+Connection ~ 4400 2400
+Wire Wire Line
+	4400 2050 4400 2550
+Text Notes 3150 2350 0    60   ~ 0
+Power In
+Text Notes 3150 3400 0    60   ~ 0
+5V 1A Out
+$EndSCHEMATC
