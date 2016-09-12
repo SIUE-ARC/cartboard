@@ -1,4 +1,4 @@
-update=Mon 12 Oct 2015 09:42:36 AM CDT
+update=Sun 11 Sep 2016 08:42:54 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName30=cartboard
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=release-v1/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
