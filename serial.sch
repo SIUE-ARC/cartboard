@@ -32,17 +32,17 @@ LIBS:cartboard
 LIBS:cartboard-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Rugged PSOC, Low Side Drivers"
+Date "2016-09-12"
+Rev "1"
+Comp "SIUE ARC"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Copyright 2016, Brady O'Brien"
+Comment4 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)"
 $EndDescr
 $Comp
 L CY7C65213-28 U301

@@ -32,17 +32,17 @@ LIBS:cartboard
 LIBS:cartboard-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Rugged PSOC, Low Side Drivers"
+Date "2016-09-12"
+Rev "1"
+Comp "SIUE ARC"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Copyright 2016, Brady O'Brien"
+Comment4 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)"
 $EndDescr
 Text Notes 4100 5750 0    60   ~ 0
 Protection TVS/clamping diode arrays
@@ -132,10 +132,10 @@ VCC
 Text Label 6950 4950 2    60   ~ 0
 GND
 $Comp
-L GND #PWR202
+L GND #PWR010
 U 1 1 5611B389
 P 6300 5650
-F 0 "#PWR202" H 6300 5400 50  0001 C CNN
+F 0 "#PWR010" H 6300 5400 50  0001 C CNN
 F 1 "GND" H 6300 5500 50  0000 C CNN
 F 2 "" H 6300 5650 60  0000 C CNN
 F 3 "" H 6300 5650 60  0000 C CNN
@@ -212,10 +212,10 @@ F 3 "" H 3450 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR201
+L GND #PWR011
 U 1 1 5611CB39
 P 3200 5700
-F 0 "#PWR201" H 3200 5450 50  0001 C CNN
+F 0 "#PWR011" H 3200 5450 50  0001 C CNN
 F 1 "GND" H 3200 5550 50  0000 C CNN
 F 2 "" H 3200 5700 60  0000 C CNN
 F 3 "" H 3200 5700 60  0000 C CNN

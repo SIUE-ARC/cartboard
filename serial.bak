@@ -35,14 +35,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Rugged PSOC, Low Side Drivers"
+Date "2016-09-12"
+Rev "1"
+Comp "SIUE ARC"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Copyright 2016, Brady O'Brien"
+Comment4 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)"
 $EndDescr
 $Comp
 L CY7C65213-28 U301
@@ -64,6 +64,7 @@ F 0 "P301" H 4225 2775 50  0000 C CNN
 F 1 "USB_OTG" H 3900 3100 50  0000 C CNN
 F 2 "Connect:USB_Mini-B" V 3850 2800 60  0001 C CNN
 F 3 "" V 3850 2800 60  0000 C CNN
+F 4 "65100516121" H 3900 2900 60  0001 C CNN "Part"
 	1    3900 2900
 	0    -1   -1   0   
 $EndComp
